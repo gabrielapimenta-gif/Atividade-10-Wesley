@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Processamento de Vetores</title>
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Processador de Vetor</h2>
+        <p>Digite 10 números separados por vírgula:</p>
+        <input type="text" id="inputVetor" placeholder="Ex: 1,2,3,4,5,6,7,8,9,10">
+        
+        <div class="botoes">
+            <button onclick="executar(1)">Ordem direta</button>
+            <button onclick="executar(2)">Ordem inversa</button>
+        </div>
+
+        <div id="display">
+            <strong>Resultado:</strong>
+            <p id="saida">-</p>
+        </div>
+    </div>
+
+    <script src="assets/funcionalidade.js"></script>
+</body>
+</html>

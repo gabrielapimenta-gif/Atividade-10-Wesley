@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Matriz</title>
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Matriz 3 x 3</h2>
+        <p>Insira 9 números separados por vírgula:</p>
+        <input type="text" id="dadosMatriz" placeholder="Ex: 1,2,3,4,5,6,7,8,9">
+        
+        <div class="botoes">
+            <button onclick="executar('geral')">Ver Matriz</button>
+            <button onclick="executar('colunasPares')">Colunas Pares</button>
+            <button onclick="executar('linhasImpares')">Linha Ímpar</button>
+        </div>
+
+        <div id="resultado">
+            <strong>Saída:</strong>
+            <pre id="saidaMatriz"></pre>
+        </div>
+    </div>
+    <script src="assets/funcionalidade.js"></script>
+</body>
+</html>

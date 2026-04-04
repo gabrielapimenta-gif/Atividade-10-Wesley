@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Números Naturais</title>
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Análise de Números Naturais</h2>
+        
+        <input type="number" id="inputNumero" placeholder="Digite um número natural" min="0">
+        <button onclick="processar()">Analisar</button>
+
+        <div id="resultado">
+            <p><strong>Classificação:</strong> <span id="parOuImpar">-</span></p>
+            <p><strong>Ímpares até o número:</strong></p>
+            <div id="listaImpares"></div>
+        </div>
+    </div>
+
+    <script src="assets/funcionalidade.js"></script>
+</body>
+</html>
